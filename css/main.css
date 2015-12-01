@@ -74,10 +74,18 @@ a:active {
   position: relative;
 }
 .heading span {
-  font-size: 45px;
+  font-size: 55px;
   color: #ff530a;
   font-weight: 600;
 }
+
+.heading-special {
+  font-size: 45px;
+  color: #ff530a;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 .heading:before {
   content: "";
   position: absolute;
@@ -630,13 +638,14 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding-bottom: 10px;
   display: block;
   color: #FF4F02;
+  font-size: 30px;
 }
 #footer .block .blog ul li h4 i,
 #footer .block .info ul li h4 i,
 #footer .block .gallary ul li h4 i {
   color: #555;
   margin-right: 30px;
-  font-size: 20px;
+  font-size: 30px;
 }
 #footer .block .blog ul li h4 a,
 #footer .block .info ul li h4 a,
@@ -649,7 +658,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .info ul li p,
 #footer .block .gallary ul li p {
   color: #474747;
-  font-size: 14px;
+  font-size: 20px;
 }
 #footer .block .social-media-link h3 {
   font-size: 20px;
